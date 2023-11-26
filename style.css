@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+
+.parallax {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.satu {
+    background-image: url('1.jpg');
+}
+.dua {
+    background-image: url('2.jpg');
+}
+.tiga {
+    background-image: url('3.jpg');
+}
+.empat {
+    background-image: url('4.jpg');
+}
+.lima {
+    background-image: url('5.jpg');
+}
+
+h1 {
+    color: white;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 5px rgb(49, 49, 49);
+    font-size: 3em;
+    text-align: center;
+}
