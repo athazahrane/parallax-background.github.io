@@ -5,6 +5,11 @@
     font-family: fantasy;
 }
 
+body {
+    min-height: 500vh;
+    scroll-behavior: smooth;
+}
+
 .parallax {
     width: 100%;
     height: 100vh;
